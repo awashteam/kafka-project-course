@@ -33,7 +33,7 @@ public class ConsumerWithThread {
 
         String bootstrapServers = "127.0.0.1:9092";
         String groupId = "my-fifth-application";
-        String topic = "first_topic";
+        String topic = "fifth_topic";
 
         // latch for dealing with multiple threads
         CountDownLatch latch = new CountDownLatch(1);

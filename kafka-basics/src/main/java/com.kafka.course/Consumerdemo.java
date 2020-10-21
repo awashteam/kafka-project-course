@@ -23,7 +23,7 @@ public class Consumerdemo {
         String groupId = "my-fifth-application";
         String topic = "first_topic";
 
-        // create Producer properties
+        // create Consumer properties
         Properties properties = new Properties();
 
         properties.setProperty(ConsumerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
